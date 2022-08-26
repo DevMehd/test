@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .container {
+    clear: both;
+    overflow: auto;
+  }
+  
+  .navbar {
+    float: right;
+  }
+  
+  .logo img {
+    float: left;
+    margin-left: 10px;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Poppins-SemiBold;
+  }
+
+  .navbar ul li a{
+     text-decoration: none; 
+    color: black;
+    background: linear-gradient(to top, #039F4E 0%, #039F4E 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s color .25s; 
+  } 
+
+  .navbar ul li select option{
+    background: url(/img/italian.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Poppins-SemiBold;
+  }
+  
+  .navbar ul li select{
+    -webkit-border-radius: 2px;
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    scroll-behavior: smooth;
+    background: url(/img/italian.png);
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 15%;
+    font-size: inherit;
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border: 0px;
+    /* overflow: hidden; */
+    font-family: Poppins-SemiBold;
+  }
+
+  .navbar ul li a:hover {
+    background-size: 100% 100%;
+    color: #039F4E;
+  }
+  .navbar ul li select:hover {
+    color: #039F4E;
+  }
+  

@@ -1,0 +1,347 @@
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('/fonts/Poppins/Poppins-SemiBold.ttf');
+    font-family: 'Poppins-Bold';
+    src: url('/fonts/Poppins/Poppins-Bold.ttf');
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins/Poppins.ttf');
+    font-family: 'Muli';
+    src: url('/fonts/muli/Muli.ttf');
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.banner img{
+  width:100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.banner h1{
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  margin-top: 8%; 
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: calc(28px + 1.5vw);
+}
+
+.banner p{
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  margin-top: 17%; 
+  font-family: Muli;
+  font-size: calc(5px + 0.5vw);
+}
+
+.banner a{
+  position: absolute;
+  z-index: 2;
+  margin-top: 25%; 
+}
+
+.card-title {
+  margin-top: 100px;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.card {
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.65); 
+    box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.65);
+    border-radius: 16px;
+    width: 305px;
+    height: 223px;
+    font-family: Poppins-Bold;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.card img{
+  height: 137px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.card:hover {
+  width: 335px;
+  height: 244.93442622950819672131147540984px;
+}
+
+.card:hover img {
+  transform: scaleX(1.0983606557377049180327868852459);
+}
+
+
+  .scroll-downs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    cursor: pointer;
+    
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+
+  .inline {
+    /* margin-left: 13.33%; 
+    width: 86.66%; 
+    justify-content: center;*/
+  }
+
+  .inline {
+    margin-left: 13.33%;
+  }
+
+  .inline h1 {
+    font-family: Poppins;
+    font-weight: bold;
+  }
+
+  .container-4 h1 {
+    font-family: Poppins;
+    font-weight: bold;
+  }
+  
+  .inline h3 {
+    font-family: Poppins;
+    font-weight: bold;
+    color: #039F4E;
+  }
+  
+  .container-4 h3 {
+    font-family: Poppins;
+    font-weight: bold;
+    color: #039F4E;
+  }
+  
+  .container-4 h5 {
+    font-family: Poppins;
+    font-weight: bold;
+  }
+
+  .left {
+    text-align: right;
+  }
+
+  .right {
+    text-align: left;
+  }
+
+  .container-4 ul li {
+    display: inline-block;
+  }
+
+  .inline p {
+    font-family: Muli;
+  }
+
+  .container-4 p {
+    font-family: Muli;
+    margin-top: -20px;
+    color:#7B7D7C;
+    font-size: 12px;
+  }
+
+  .inline {    
+    float: left;
+  }
+
+  .inline ul li{
+    display: inline-block;
+  }
+
+  .sub {
+    font-family: Muli;
+    margin-top: -20px;
+    color:#7B7D7C;
+    font-size: 12px;
+  }
+
+  .test {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+  .livreur2 {
+    float: left;
+    margin-top: 7.4889867841409691629955947136564%;
+    margin-left: 43.402777777777777777777777777778%;
+    position: absolute;
+    z-index: 2; 
+    display: block;
+    min-height: 100%;
+    font-family: Poppins;
+    color: #fff;
+  }
+
+  .livreur2 nav ul {
+    list-style-type: none;
+  }
+
+  .brochure {
+    padding: 12.5px 45px 15px 45px;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    font-family: Muli;
+    font-weight: 600;
+  }
+
+  .livreur2 nav ul li {
+    display: inline-block;
+    margin-bottom: calc(5px + 1.5vw);
+    margin-right: 150px;
+  }
+
+  .livreur2 h2 {
+    font-size: calc(20px + 0.9vw);
+    font-weight: bold;
+  }
+
+  .livreur2 h4 {
+    font-size: calc(15px + 0.25vw);
+    font-weight: bold;
+  }
+
+  .livreur2 p {
+    font-family: Muli;
+    font-size: calc(10px + 0.25vw);
+    margin-top: -25px;
+  }
+
+  .banner2 {
+    position: absolute;
+    z-index: 1;
+  }
+
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  #content h1 {
+    font-family: Poppins;
+    font-weight: bold;
+  }
+
+  #content p {
+    font-family: Muli;
+  }
+
+  .little-text {
+    font-family: Poppins;
+    font-size: 12px;
+    
+  }
+
+  .logo2 {
+    margin-left: 4.7222222222222222222222222222222%;
+  }
+
+  .bottom li{
+    display: inline-block;
+  }
+
+  footer {
+    background-color: #000;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  footer ul li {
+    display: inline-block;
+  }
+
+  footer ul li a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Poppins;
+  }
+
+  .form {
+    margin-top: 1050px;
+  }
+
+  .form ul {    
+    list-style-type: none; 
+  }
+
+  .form h2 {
+    font-family: Poppins;
+    font-weight: bold;
+  }
+
+  .form p {
+    font-family: Muli;
+  }
+
+  .form label {
+    font-family: Muli;
+  }
+
+  .form h3 {
+    font-family: Poppins;
+    font-weight: bold;
+  }
+
+  .form button {
+    color: #fff;
+    background-color: #039F4E;
+    padding: 12.5px 45px 15px 45px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .form input {
+    background: linear-gradient(to top, #A5A5A5 0%, #A5A5A5 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    background-size: 100% 100%;
+    border: none;
+    width: 300px;
+    outline: none;
+  }
+
+  .inline-form-li{
+    display: inline-block;
+    margin-left: 50px;
+  }
